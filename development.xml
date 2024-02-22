@@ -4,6 +4,8 @@
 
     <remote name="imdt-internal" fetch="ssh://git@github.com/imd-tec"/>
 
+    <project name="meta-rz-features-dev" path="sources/meta-rz-features" remote="imdt-internal" revision="main"/>
+
     <project name="meta-imdt-renesas-dev" path="sources/meta-imdt-renesas" remote="imdt-internal" revision="dunfell"/>
     <project name="meta-imdt-renesas-internal" path="sources/meta-imdt-renesas-internal" remote="imdt-internal" revision="dunfell"/>
 
