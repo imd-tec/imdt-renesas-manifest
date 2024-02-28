@@ -14,4 +14,8 @@
 
     <project name="meta-renesas" path="sources/meta-renesas" remote="renesas" revision="93d8d78e498848524656e2902566a609854de4a9"/>
 
+    <project name="rzv2h_drp-ai_driver" path="sources/renesas-layers/rzv2h_drp-ai_driver" remote="renesas" revision="94fa32d375fdff0e9ada38313951a9a552bb014c">
+        <linkfile src="meta-rz-features/meta-rz-drpai" dest="sources/meta-rz-features/meta-rz-drpai"/>
+    </project>
+
 </manifest>
