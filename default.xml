@@ -18,4 +18,7 @@
         <linkfile src="meta-rz-features/meta-rz-drpai" dest="sources/meta-rz-features/meta-rz-drpai"/>
     </project>
 
+    <project name="rzv2h_opencv_accelerator" path="sources/renesas-layers/rzv2h_opencv_accelerator" remote="renesas" revision="7021c66a035defa677929519dc9f2f1e46cc7c51">
+        <linkfile src="meta-rz-features/meta-rz-opencva" dest="sources/meta-rz-features/meta-rz-opencva"/>
+    </project>
 </manifest>
