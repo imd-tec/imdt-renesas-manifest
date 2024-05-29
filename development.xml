@@ -4,6 +4,8 @@
 
     <remote name="imdt-internal" fetch="ssh://git@github.com/imd-tec"/>
 
+    <remove-project name="meta-imdt-renesas"/>
+
     <project name="meta-imdt-renesas-dev" path="sources/meta-imdt-renesas" remote="imdt-internal" revision="dunfell">
         <linkfile src="README.md" dest="README.md"/>
     </project>
