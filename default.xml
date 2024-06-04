@@ -5,6 +5,7 @@
     <remote name="oe" fetch="https://github.com/openembedded"/>
     <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
     <remote name="renesas" fetch="https://github.com/renesas-rz"/>
+    <remote name="sbabic" fetch="https://github.com/sbabic"/>
     <remote name="imdt" fetch="https://github.com/imd-tec"/>
 
     <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="6334241447e461f849035c47f071fa4a2125fee1"/>
@@ -14,6 +15,7 @@
     <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="521459bf588435e847d981657485bae8d6f003b5"/>
 
     <project name="meta-renesas" path="sources/meta-renesas" remote="renesas" revision="93d8d78e498848524656e2902566a609854de4a9"/>
+    <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="05d4f99ae1db40b2c7e6644ca9f18e111fc88bda"/>
 
     <project name="rzv2h_drp-ai_driver" path="sources/renesas-layers/rzv2h_drp-ai_driver" remote="renesas" revision="94fa32d375fdff0e9ada38313951a9a552bb014c">
         <linkfile src="meta-rz-features/meta-rz-drpai" dest="sources/meta-rz-features/meta-rz-drpai"/>
