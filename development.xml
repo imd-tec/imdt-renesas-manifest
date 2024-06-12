@@ -11,4 +11,7 @@
     </project>
     <project name="meta-imdt-renesas-internal" path="sources/meta-imdt-renesas-internal" remote="imdt-internal" revision="dunfell"/>
 
+    <project name="meta-rz-features-internal" path="sources/meta-rz-features-internal" remote="imdt-internal" revision="dunfell">
+        <linkfile src="meta-rz-codecs" dest="sources/meta-rz-features/meta-rz-codecs"/>
+    </project>
 </manifest>
