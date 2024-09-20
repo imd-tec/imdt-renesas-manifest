@@ -23,7 +23,7 @@
         <linkfile src="meta-rz-features/meta-rz-opencva" dest="sources/meta-rz-features/meta-rz-opencva"/>
     </project>
 
-    <project name="meta-imdt-renesas" path="sources/meta-imdt-renesas" remote="imdt" revision="a4eb1660554f350f192ab6cd9552119ff9ab509c">
+    <project name="meta-imdt-renesas" path="sources/meta-imdt-renesas" remote="imdt" revision="c142561b7ed1e67e2897e27872a3fae492693baf">
         <linkfile src="README.md" dest="README.md"/>
     </project>
 </manifest>
