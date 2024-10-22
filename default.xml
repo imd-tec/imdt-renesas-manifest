@@ -1,31 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <default sync-j="2"/>
-
-    <remote name="oe" fetch="https://github.com/openembedded"/>
-    <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
-    <remote name="renesas" fetch="https://github.com/renesas-rz"/>
-    <remote name="sbabic" fetch="https://github.com/sbabic"/>
-    <remote name="imdt" fetch="https://github.com/imd-tec"/>
-
-    <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="6334241447e461f849035c47f071fa4a2125fee1"/>
-
-    <project name="poky" path="sources/poky" remote="yocto" revision="bab87089ad998afc980adb45c11ae356bc35a460"/>
-    <project name="meta-gplv2" path="sources/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac"/>
-    <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="521459bf588435e847d981657485bae8d6f003b5"/>
-
-    <project name="meta-renesas" path="sources/meta-renesas" remote="renesas" revision="93d8d78e498848524656e2902566a609854de4a9"/>
-    <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="05d4f99ae1db40b2c7e6644ca9f18e111fc88bda"/>
-
-    <project name="rzv2h_drp-ai_driver" path="sources/renesas-layers/rzv2h_drp-ai_driver" remote="renesas" revision="94fa32d375fdff0e9ada38313951a9a552bb014c">
-        <linkfile src="meta-rz-features/meta-rz-drpai" dest="sources/meta-rz-features/meta-rz-drpai"/>
-    </project>
-
-    <project name="rzv2h_opencv_accelerator" path="sources/renesas-layers/rzv2h_opencv_accelerator" remote="renesas" revision="7021c66a035defa677929519dc9f2f1e46cc7c51">
-        <linkfile src="meta-rz-features/meta-rz-opencva" dest="sources/meta-rz-features/meta-rz-opencva"/>
-    </project>
-
-    <project name="meta-imdt-renesas" path="sources/meta-imdt-renesas" remote="imdt" revision="dunfell">
-        <linkfile src="README.md" dest="README.md"/>
-    </project>
+    <include name="imdt-v2h-bsp-v2.1.0.xml" />
 </manifest>
