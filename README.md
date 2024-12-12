@@ -14,6 +14,6 @@ To create a working environment for the latest release:
 ```sh
 mkdir <working directory>
 cd <working directory>
-repo init -u git@github.com:imd-tec/imdt-renesas-manifest.git -b imdt-linux-dunfell -m imdt-v2h-bsp-v2.0.0.xml
+repo init -u git@github.com:imd-tec/imdt-renesas-manifest.git -b imdt-linux-dunfell -m default.xml
 repo sync
 ```
