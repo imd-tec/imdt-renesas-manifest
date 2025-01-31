@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<manifest name="BSP" version="2.0.0">
     <default sync-j="2"/>
 
     <remote name="oe" fetch="https://github.com/openembedded"/>
