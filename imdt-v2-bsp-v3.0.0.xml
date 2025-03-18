@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest name="BSP" version="2.2.0">
+<manifest name="BSP" version="3.0.0">
     <default sync-j="2"/>
 
     <remote name="oe" fetch="https://github.com/openembedded"/>
@@ -14,7 +14,7 @@
     <project name="meta-gplv2" path="sources/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac"/>
     <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="521459bf588435e847d981657485bae8d6f003b5"/>
 
-    <project name="meta-renesas" path="sources/meta-renesas" remote="renesas" revision="6c11ae542069841f922cf0f86444845934b4cc7a"/>
+    <project name="meta-renesas" path="sources/meta-renesas" remote="renesas" revision="d6aff60570be4ad044cd52de80c5d4ef621b5743"/>
     <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="05d4f99ae1db40b2c7e6644ca9f18e111fc88bda"/>
 
     <project name="rzv2h_drp-ai_driver" path="sources/renesas-layers/rzv2h_drp-ai_driver" remote="renesas" revision="4d284877585ada6be12a8b65b62592a591130b2c">
@@ -25,7 +25,7 @@
         <linkfile src="meta-rz-features/meta-rz-opencva" dest="sources/meta-rz-features/meta-rz-opencva"/>
     </project>
 
-    <project name="meta-imdt-renesas" path="sources/meta-imdt-renesas" remote="imdt" revision="36072a763adc94c811b18f73b99b1a584ea4b35b">
+    <project name="meta-imdt-renesas" path="sources/meta-imdt-renesas" remote="imdt" revision="d0cd9151a520db9973ef1ec0b8961aac7f4c7784">
         <linkfile src="README.md" dest="README.md"/>
     </project>
 </manifest>
