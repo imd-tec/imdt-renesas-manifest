@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest name="BSP" version="default">
-    <include name="imdt-v2-bsp-v3.0.0.xml" />
+    <include name="imdt-v2-bsp-v3.1.0.xml" />
 </manifest>
