@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest name="BSP" version="3.1.2">
+    <default sync-j="2"/>
+
+    <remote name="oe" fetch="https://github.com/openembedded"/>
+    <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
+    <remote name="renesas" fetch="https://github.com/renesas-rz"/>
+    <remote name="sbabic" fetch="https://github.com/sbabic"/>
+    <remote name="imdt" fetch="https://github.com/imd-tec"/>
+
+    <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="daa4619fe3fbf8c28f342c4a7163a84a330f7653"/>
+
+    <project name="poky" path="sources/poky" remote="yocto" revision="63d05fc061006bf1a88630d6d91cdc76ea33fbf2"/>
+    <project name="meta-gplv2" path="sources/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac"/>
+    <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="521459bf588435e847d981657485bae8d6f003b5"/>
+
+    <project name="meta-renesas" path="sources/meta-renesas" remote="renesas" revision="d6aff60570be4ad044cd52de80c5d4ef621b5743"/>
+    <project name="meta-swupdate" path="sources/meta-swupdate" remote="sbabic" revision="05d4f99ae1db40b2c7e6644ca9f18e111fc88bda"/>
+
+    <project name="rzv2n_drp-ai_driver" path="sources/renesas-layers/rzv2n_drp-ai_driver" remote="renesas" revision="1add198d2d750155a91f7bfd71d49a3829f1bc3b"/>
+
+    <project name="rzv2h_drp-ai_driver" path="sources/renesas-layers/rzv2h_drp-ai_driver" remote="renesas" revision="4d284877585ada6be12a8b65b62592a591130b2c"/>
+
+    <project name="rzv2n_opencv_accelerator" path="sources/renesas-layers/rzv2n_opencv_accelerator" remote="renesas" revision="218a4645b42b209047e80b5b22b1f14609490cf4"/>
+
+    <project name="rzv2h_opencv_accelerator" path="sources/renesas-layers/rzv2h_opencv_accelerator" remote="renesas" revision="69e987195542b33542669e397bfac68c2de4e9c0"/>
+
+    <project name="meta-imdt-renesas" path="sources/meta-imdt-renesas" remote="imdt" revision="155a9f014ff875dd3efb8a075144a27ff0c95621">
+        <linkfile src="README.md" dest="README.md"/>
+    </project>
+</manifest>
