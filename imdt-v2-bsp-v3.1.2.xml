@@ -25,7 +25,7 @@
 
     <project name="rzv2h_opencv_accelerator" path="sources/renesas-layers/rzv2h_opencv_accelerator" remote="renesas" revision="69e987195542b33542669e397bfac68c2de4e9c0"/>
 
-    <project name="meta-imdt-renesas" path="sources/meta-imdt-renesas" remote="imdt" revision="9e1c640b157fcfa9c2dd98fb83cd0c735bd5351a">
+    <project name="meta-imdt-renesas" path="sources/meta-imdt-renesas" remote="imdt" revision="d0a65b6a2a6f17fcd1b2bb95ed2c465d77f9ff7f">
         <linkfile src="README.md" dest="README.md"/>
     </project>
 </manifest>
